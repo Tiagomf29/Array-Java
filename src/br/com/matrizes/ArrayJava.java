@@ -53,7 +53,8 @@ public class ArrayJava {
 		System.out.println("");	
 		
 		matriz4[0][0] = 15;
-			
+		
+		// Erro pois não foi atribuido o tamanho da dimensão dois da matriz
 		for (int i = 0; i < matriz4.length; i++) 
 		  for(int a = 0; a < matriz4[i].length; a++) 
 		    System.out.print(matriz4[i][a]+" ");
